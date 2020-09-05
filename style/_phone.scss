@@ -1,0 +1,60 @@
+.phone {
+  margin-top: 4em;
+  padding-top: 8em;
+  padding-bottom: 0;
+  background: #fbfbfd;
+
+  .container {
+    display: flex;
+  }
+
+  &-right {
+    margin-bottom: -0.5em;
+  }
+
+  &-left {
+
+    &-text {
+      width: 80%;
+    }
+
+    &-grid {
+      margin-top: 4em;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 3em;
+
+      &-block {
+        display: grid;
+        height: 6.125em;
+        grid-template-columns: 0.2fr 1fr;
+        grid-template-rows: 0.2fr 1fr;
+        align-content: center;
+
+
+
+        &-icon {
+          grid-column: 1/2;
+
+          img {
+            margin-top: .75em;
+            margin-right: 1em;
+          }
+        }
+
+        p {
+          font-size: 12px;
+          grid-column: 2/3;
+          grid-row: 2/3;
+          margin-top: -1em;
+          align-self: center;
+          color: #5D6970;
+
+        }
+
+
+      }
+    }
+  }
+}

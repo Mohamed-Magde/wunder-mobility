@@ -1,0 +1,81 @@
+.footer {
+  height: 25vh;
+  background: #E7ECFF;
+  margin-top: -15vh;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .line {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background: #CDD1D4;
+    }
+  }
+
+  .company {
+    /* Medium 14 */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* Colour/Main/Grey/400 */
+
+    color: #939EA4;
+  }
+
+  .logo {
+    font-style: normal;
+    font-weight: 900;
+    font-size: $font-lg;
+    line-height: 38px;
+    color: $logo;
+  }
+
+  .footer-list {
+    width: 25%;
+    padding-left: 0;
+    display: flex;
+
+
+    &-item {
+      font-size: $font-sm;
+      color: $nav-link;
+      line-height: 24px;
+      font-style: normal;
+      font-weight: normal;
+      margin-right: 2em;
+      color: #B0B8BC;
+
+    }
+
+  }
+
+  .footer-list-right-item {
+    margin-right: 1em;
+    display: inline-block;
+    color: #B0B8BC;
+
+    &:nth-child(5) {
+      margin-right: 0;
+    }
+  }
+
+
+}

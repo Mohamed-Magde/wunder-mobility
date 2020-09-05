@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: $nav-link;
+  font-family: "Roboto";
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+//typography
+
+.heading-1 {
+  font-size: $font-xlg;
+  font-weight: normal;
+  color: $heading;
+}
+
+.heading-2 {
+  font-size: $font-h2;
+  font-weight: normal;
+  color: $heading;
+}
+
+.heading-3 {
+  font-size: $font-med;
+  color: $heading;
+  font-style: normal;
+}
+
+
+//buttons
+.btn-primary {
+  background-color: $btn-primary;
+  width: 10em;
+  height: 1.625em;
+  color: #fff;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  box-shadow: 0 1px 6px rgba(#000, .2);
+
+}
+
+.btn-secondary {
+  background-color: transparent;
+  width: 10em;
+  height: 1.5625em;
+  color: $btn-primary;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  border: 1px solid $btn-primary;
+  box-shadow: 0 1px 6px rgba(#000, .2);
+
+}

@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+  width: 100vw;
+
+
+  &-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 67%;
+
+  }
+
+  &-img {
+    margin-top: 5%;
+
+    img {
+      width: 550px;
+      height: 800px;
+    }
+  }
+
+  .container {
+    display: flex;
+    width: 95%;
+  }
+
+  &-text {
+    margin-top: 12%;
+    padding-left: 8.5%;
+
+    &-button {
+      display: flex;
+      margin-top: 3em;
+
+      .btn-primary {
+        margin-right: 2em;
+      }
+    }
+  }
+}

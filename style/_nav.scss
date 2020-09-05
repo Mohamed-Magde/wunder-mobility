@@ -1,0 +1,50 @@
+.nav {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+
+  .container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  &-title {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-style: normal;
+      font-weight: 900;
+      font-size: $font-lg;
+      line-height: 38px;
+      color: $logo;
+    }
+  }
+
+  &-list {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-item {
+      font-size: $font-sm;
+      color: $nav-link;
+      line-height: 24px;
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+
+  &-button {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
